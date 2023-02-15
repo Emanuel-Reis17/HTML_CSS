@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+    <style>
+        body{
+            background-color: rgb(86, 160, 86);
+        }
+    </style>
+</head>
+<body>
+    <h2>tentando o tamanho</h2>
+    <p>Vou colocar uma imagem aqui que se será compacta para todos os tamanhos!</p>
+    <h3>Tamanhos:</h3>
+    <ul type="square">
+       <ul>Celular: <strong>300x300</strong></ul>
+       <ul>Tablet: <strong>700x700</strong></ul>
+       <ul>Notebook: <strong>1000x1000</strong></ul>
+    </ul>
+    <h3>Imagem</h3>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midias/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midias/m.png" type="image/png">
+        <img src="midias/g.png" alt="Imagem Grande">
+    </picture>
+    <br>
+    <p>Voltar a página principal <a href="teste1.html">&leftarrow;</a></p>
+</body>
+</html>

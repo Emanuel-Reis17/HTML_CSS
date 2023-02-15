@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: darkgreen;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(77, 219, 77), rgb(12, 106, 12));
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+}
+
+h1#title, p#sub-title {
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 45px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: rgb(123, 240, 123);
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    width: 825px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.487);
+}
+
+h1, h2 {
+    font-family: 'droid';
+    color: green;
+    text-align: left;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+div {
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.569);
+}
+
+h3 {
+    background-color: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+footer {
+    background-color: black;
+
+}
+
+footer > p#pp {
+    color: white;
+    text-align: center;
+}

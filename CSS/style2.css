@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(180, 246, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+id="" -> # (somente 1)
+class -> . (multiplos & dentro de um id)
+*/
+
+h1 {
+    color:rgb(35, 145, 145)
+}
+
+h1#principal{
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    color:rgb(54, 97, 97)
+}
+
+.basico{
+    color: rgb(92, 209, 92);
+}
+
+.intermediario{
+    color: rgb(214, 214, 120);
+}
+
+.avancado{
+    color: rgb(88, 88, 242);
+}
+
+.destaque{
+    text-decoration: underline;
+}
