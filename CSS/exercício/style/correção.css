@@ -31,9 +31,7 @@ body {
     font-family: var(--fonte-padrão);
 }
 
-a.link::after {
-     
-}
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
