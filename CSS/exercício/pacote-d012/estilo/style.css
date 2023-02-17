@@ -36,8 +36,7 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 10vh 0px 10vh 0px;
     line-height: 2em;
     padding-left: 30px;
 }
@@ -50,6 +49,11 @@ section {
 .imagem {
     background-color: rgb(37, 37, 37);
     color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 400px;
 }
 
 footer {
