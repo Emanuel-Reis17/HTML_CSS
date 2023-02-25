@@ -97,6 +97,10 @@ main > p {
     margin-bottom: 20px;
 }
 
+main img {
+    max-width: 100%;
+}
+
 footer {
     background-color: black;
     text-align: center;
@@ -106,4 +110,13 @@ footer {
 footer > p, a {
     color: white;
     font-family: var(--font2);
+}
+
+footer a {
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--cor01);
+    text-decoration: underline;
 }
