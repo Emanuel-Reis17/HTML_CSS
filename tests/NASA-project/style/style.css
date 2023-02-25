@@ -10,9 +10,17 @@
 }
 
 :root {
-    --font1: Verdana, Arial, Helvetica, sans-serif;
+    --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     --font2: 'Ruda', sans-serif;
     --font3: 'space', cursive;
+}
+
+:root {
+    --cor00: #89D2DC;
+    --cor01: #3772FF;
+    --cor02: #2667FF;
+    --cor03: #101D42;
+    --cor04: #0D1317;
 }
 
 * {
@@ -23,8 +31,8 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
-    font-family: var(--font1);
+    background-color: var(--cor04);
+    font-family: var(--font1); 
 }
 
 header {
@@ -61,20 +69,41 @@ nav > a:hover {
     background-color: rgb(43, 116, 172);
     color: white;
     border-radius: 5px;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.507);
 }
 
 main {
     background-color: white;
     margin: auto;
     max-width: 850px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.491);
 }
 
+h1.normal {
+    color: var(--cor03);
+    font-family: var(--font3);
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 10px;
+}
 
+main > p {
+    text-align: justify;
+    text-indent: 10px;
+    font-family: var(--font1);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 
 footer {
     background-color: black;
-    
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p, a {
+    color: white;
+    font-family: var(--font2);
 }
