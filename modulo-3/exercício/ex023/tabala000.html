@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTH.FIBRA</title>
+    <style>
+
+        h1 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+            position: relative;
+        }
+
+        caption {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 1.2em;
+            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        thead, tfoot {
+            background-color: rgb(73, 73, 73);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px; 
+        }
+
+        td:hover {
+            background-color: rgb(216, 216, 3);
+            color: white;
+            font-weight: bolder;
+        }
+
+        .cargo {
+            text-align: center;
+        }         
+
+        tbody > tr:nth-child(2n) {
+            background-color:gray;
+            color: white; 
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Criando uma tabela do zero</h1>
+    <table>
+        <caption>Colaboradores da MTH.FIBRA</caption>
+        <thead>
+            <tr>
+                <th scope="col">Colaborador(a)</th>
+                <th scope="col">Cargo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emerson Thomas</td>
+                <td class="cargo">CEO</td>
+            </tr>
+            <tr>
+                <td>Fabiane</td>
+                <td class="cargo">???</td>
+            </tr>
+            <tr>
+                <td>Leandro M</td>
+                <td class="cargo">Técnico</td>
+            </tr>
+            <tr>
+                <td>Leandro B</td>
+                <td class="cargo">Técnico</td>
+            </tr>
+            <tr>
+                <td>Vitor</td>
+                <td class="cargo">Técnico</td>
+            </tr>
+            <tr>
+                <td>Geovane</td>
+                <td class="cargo">Técnico</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td class="cargo">Técnico</td>
+            </tr>
+            <tr>
+                <td>Vanderson</td>
+                <td class="cargo">Líder externo</td>
+            </tr>
+            <tr>
+                <td>Jaine</td>
+                <td class="cargo">Recepcionista</td>
+            </tr>
+            <tr>
+                <td>Ana Carolina</td>
+                <td class="cargo">Suporte</td>
+            </tr>
+            <tr>
+                <td>Nalanda Carmo</td>
+                <td class="cargo">Suporte</td>
+            </tr>
+            <tr>
+                <td>Emanuel Reis</td>
+                <td class="cargo">Suporte</td>
+            </tr>
+            <tr>
+                <td>Andressa</td>
+                <td class="cargo">Suporte</td>
+            </tr>
+            <tr>
+                <td>Emilane</td>
+                <td class="cargo">Suporte</td>
+            </tr>
+            <tr>
+                <td>Yasmin Sodré</td>
+                <td class="cargo">CQM</td>
+            </tr>
+            <tr>
+                <td>Yasmin Anares</td>
+                <td class="cargo">Aux. Financeiro</td>
+            </tr>
+            <tr>
+                <td>Daniele</td>
+                <td class="cargo">Ger. Financeira</td>
+            </tr>
+            <tr>
+                <td>Floriceia</td>
+                <td class="cargo">Dep. Comercial</td>
+            </tr>
+            <tr>
+                <td>Lucas Andrade</td>
+                <td class="cargo">Supervisor</td>
+            </tr>
+            <tr>
+                <td>Ednei</td>
+                <td class="cargo">Coordenador Geral</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de colaboradores</th>
+            <td class="cargo">19</td>
+        </tfoot>
+    </table>
+</body>
+</html>
