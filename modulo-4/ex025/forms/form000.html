@@ -16,6 +16,7 @@
         }
 
         div {
+            display: inline-block;
             background-color: gray;
             width: 300px;
             padding: 10px;
@@ -83,6 +84,119 @@
                 <p>
                     <input type="submit" value="Submit">
                     <input type="reset" value="Clear">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="../cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Esportes</legend>
+                <p>
+                    <label for="iesp">Futebol</label>
+                    <input type="checkbox" name="esp" id="iesp" checked>
+                </p>
+                <p>
+                    <label for="iesp">Natação</label>
+                    <input type="checkbox" name="esp" id="iesp">
+                </p>
+                <p>
+                    <label for="iesp">Basquete</label>
+                    <input type="checkbox" name="esp" id="iesp">
+                </p>
+                <p>
+                    <label for="iesp">Vôlei</label>
+                    <input type="checkbox" name="esp" id="iesp">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="../cadastro.php" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Arquivo</legend>
+                <p>
+                    <label for="ifoto">Escolha uma foto</label>
+                    <input type="file" name="foto" id="ifoto">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form action="../cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Localidade</legend>
+                <p>
+                    <label for="ip">País</label>
+                    <select name="i" id="ip">
+                        <optgroup>
+                            <option value="">Argentina</option>
+                            <option value="">Brasil</option>
+                            <option value="">Bolívia</option>
+                            <option value="">Chile</option>
+                            <option value="">Colômbia</option>
+                            <option value="">Paraguai</option>
+                            <option value="">Peru</option>
+                            <option value="">Uruguai</option>
+                            <option value="">Ecuador</option>
+                            <option value="">Venezuela</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="iest">Estado</label>
+                    <select name="est" id="iest">
+                        <optgroup label="Norte">
+                            <option value="AC">Acre</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="RR">Roraima</option>
+                            <option value="PA">Pará</option>
+                            <option value="TO">Tocantins</option>
+                        </optgroup>
+                        <optgroup label="Nordeste">
+                            <option value="CE">Ceará</option>
+                            <option value="BA">Bahia</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="PI">Piauí</option>
+                            <option value="PB">Paraíba</option>
+                        </optgroup>
+                        <optgroup label="Centro-oeste">
+                            <option value="RO">Rondônia</option>
+                            <option value="GO">Goiás</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                        </optgroup>
+                        <optgroup label="Sudeste">
+                            <option value="MG">Minas Gerais</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="ES">Espírito Santo</option>
+                        </optgroup>
+                        <optgroup label="Sul">
+                            <option value="PR">Paraná</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="RS">Ro Grande do Sul</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="iprof">Profissão</label>
+                    <input type="text" name="prof" id="prof" list="liprof">
+                    <datalist id="liprof">
+                        <option value="ENG">Engenheiro</option>
+                        <option value="DEV">Programador</option>
+                        <option value="DOC">Doutor</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="imsg">Outros</label>
+                    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
                 </p>
             </fieldset>
         </form>
