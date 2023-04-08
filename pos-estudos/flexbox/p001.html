@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Flex Box</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial;
+        }
+
+        body {
+            background-color: rgb(22, 37, 54);
+            color: white;
+        } 
+
+        h1 {
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3em;
+        }
+
+        div {
+            background-color: rgb(82, 27, 134);
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.788);
+        }
+
+        .container {
+            display: flex;
+            flex-flow: row wrap ;
+            justify-content: center;
+            align-items: center; 
+            align-content: center;
+            row-gap: 10px;
+            column-gap: 10px;
+            height: 500px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexible Box</h1>
+    <main class="container">
+        <div class="bloco1">1</div>
+        <div class="bloco2">2</div>
+        <div class="bloco3">3</div>
+        <div class="bloco4">4</div>
+        <div class="bloco5">5</div>
+        <div class="bloco6">6</div>
+        <div class="bloco7">7</div>
+        <div class="bloco8">8</div>
+        <div class="bloco9">9</div>
+        <div class="bloco10">10</div>
+    </main>
+</body>
+</html>
